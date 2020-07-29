@@ -1,0 +1,67 @@
+/* font-family: 'Ubuntu', sans-serif; */
+body {
+    background-image: url("./images/dot-grid.png");
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.title-1 {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    background-color: rgba(128, 128, 128, 0.5);
+    font-style: italic;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+tab1 {
+    padding-left: 2em;
+}
+h2 {
+    font-size: 20px;
+}
+.syntax p {
+    font-size: 14px;
+}
+.table-1,
+    td,
+        th {
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 10px 5px;
+    padding: 4px;
+    background-color: rgba(4, 248, 175, 0.5);
+    color: black;
+}
+
+.table-1 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+td > a {
+    color: black;
+}
+td > a:hover {
+    color: red;
+}
+
+.about-me {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.external-1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.external-1 > a:hover {
+    color: red;
+}
